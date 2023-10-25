@@ -10,10 +10,6 @@
     "TITLE": "We make ideas come true in digital solutions.",
     "DESCRIPTION": "We enjoy the process of developing tailored solutions that allow our clients to improve their digital presence, achieve their goals and grow in their industry."
   },
-  "COMUNITY": {
-    "TITLE": "What do you expect to be a part of?",
-    "DESCRIPTION": "We are a global community. Inclusive, supportive and collaborative."
-  },
   "TESTIMONIALS": {
     "TITLE": "What do our users think?"
   },
@@ -70,7 +66,7 @@
     "BUTTON": "Contact"
   },
   "ABOUT_US": {
-    "TITLE": "About us",
-    "DESCRIPTION": "Alarm Geo Fire is a solution developed by NO TECH, an Argentine company that seeks to change the world with technology. Stay up to date with the latest news here!"
+    "TITLE": "About us?",
+    "DESCRIPTION": "We specialize in software development, dedicated to offering services and creating digital products"
   }
 }

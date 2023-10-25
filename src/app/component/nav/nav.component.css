@@ -23,7 +23,9 @@
   align-items: center;
   justify-content: space-between
 }
-
+.navDiv{
+  display: none;
+}
 .nav__links-products,
 .nav__links-services,
 .nav__links-nosotros,
