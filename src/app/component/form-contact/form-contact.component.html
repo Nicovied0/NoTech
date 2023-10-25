@@ -16,9 +16,13 @@
         [(ngModel)]="formData.name"
         name="name"
       />
-      <input type="email" 
-      placeholder="{{ 'CONTACT_FORM.EMAIL' | translate }}"
-      class="form-inferior-input" [(ngModel)]="formData.email" name="email" />
+      <input
+        type="email"
+        placeholder="{{ 'CONTACT_FORM.EMAIL' | translate }}"
+        class="form-inferior-input"
+        [(ngModel)]="formData.email"
+        name="email"
+      />
       <select
         class="form-inferior-input"
         [(ngModel)]="formData.typePost"
@@ -28,13 +32,10 @@
           {{ "CONTACT_FORM.SELECT" | translate }}
         </option>
         <option value="hireService">
-          {{ "CONTACT_FORM.PRO" | translate }}
+          {{ "CONTACT_FORM.BUDGET" | translate }}
         </option>
         <option value="workWithUs">
           {{ "CONTACT_FORM.WORK_WITH_US" | translate }}
-        </option>
-        <option value="Testimonials">
-          {{ "CONTACT_FORM.TESTIMONIALS" | translate }}
         </option>
         <option value="Other">{{ "CONTACT_FORM.OTHER" | translate }}</option>
       </select>

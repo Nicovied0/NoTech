@@ -8,7 +8,6 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ComunityComponent } from './component/comunity/comunity.component';
-import { ForBusinessComponent } from './component/for-business/for-business.component';
 import { AboutUsComponent } from './component/about-us/about-us.component';
 import { ContactComponent } from './component/contact/contact.component';
 import { HomeComponent } from './component/home/home.component';
@@ -33,7 +32,6 @@ export function HttpLoaderFactory(http: HttpClient) {
   declarations: [
     AppComponent,
     ComunityComponent,
-    ForBusinessComponent,
     AboutUsComponent,
     ContactComponent,
     HomeComponent,
