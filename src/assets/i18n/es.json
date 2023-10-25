@@ -42,15 +42,15 @@
     "TITLE": "¿Tienes preguntas o quieres ser parte del equipo?",
     "DESCRIPTION": "Completa el formulario y nos vamos a poner en contacto lo antes posible",
     "BUTTON": "Enviar",
-    "SELECT":"Seleccionar",
-    "BUDGET":"Presupuesto",
-    "WORK_WITH_US":"Sumate al equipo",
-    "TESTIMONIALS":"Testimonio",
-    "OTHER":"Otro",
-    "PUNCTUATION":"Puntuación",
-    "EMAIL":"Email",
-    "NAME":"Nombre y apellido",
-    "CONSULTATION":"Consulta"
+    "SELECT": "Seleccionar",
+    "BUDGET": "Presupuesto",
+    "WORK_WITH_US": "Sumate al equipo",
+    "TESTIMONIALS": "Testimonio",
+    "OTHER": "Otro",
+    "PUNCTUATION": "Puntuación",
+    "EMAIL": "Email",
+    "NAME": "Nombre y apellido",
+    "CONSULTATION": "Consulta"
   },
   "DETAILS": {
     "TITLE": "Cómo funciona?",
@@ -71,6 +71,9 @@
   },
   "ABOUT_US": {
     "TITLE": "Quienes somos?",
-    "DESCRIPTION": "Nos especializamos en el desarrollo de software, dedicados a ofrecer servicios y crear productos digitales."
+    "DESCRIPTION": "Nos especializamos en el desarrollo de software, dedicados a ofrecer servicios y crear productos digitales.",
+    "P1": "En NoTech, nuestra pasión es la innovación y la excelencia tecnológica. Nos esforzamos por crear soluciones personalizadas que se adapten perfectamente a sus objetivos y desafíos. Nuestro compromiso es transformar sus ideas en resultados concretos que impulsen su crecimiento y mejoren su rendimiento.",
+    "P2": "Nos destacamos en la satisfacción de sus necesidades específicas, ofreciendo una amplia gama de servicios y soluciones digitales de vanguardia. Nuestra extensa experiencia en el mercado respalda cada proyecto que emprendemos, y lo abordamos con un alto nivel de dedicación y profesionalismo.",
+    "P3": "Valoramos profundamente nuestra responsabilidad social y nuestro impacto en la comunidad. Creemos firmemente que el éxito empresarial debe ir de la mano de la sostenibilidad, y estamos constantemente buscando formas de generar un impacto positivo en nuestro entorno y en la sociedad en general."
   }
 }

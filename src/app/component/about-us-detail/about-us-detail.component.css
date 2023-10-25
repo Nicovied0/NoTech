@@ -25,3 +25,11 @@
   line-height: 157.4%;
   margin-right: 6.5rem;
 }
+.div_inferior-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.div_inferior-boxInternal {
+  width: 50%;
+}
