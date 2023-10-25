@@ -47,7 +47,9 @@
   transform: scale(1.1);
   transition: 0.5s ease-in-out .5s;
 }
-
+.nav__links-lenguaje{
+  margin: 0 0 0 3rem;
+}
 
 .nav__burguer {
   display: none;
