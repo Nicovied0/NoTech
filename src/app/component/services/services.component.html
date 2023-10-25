@@ -1,1 +1,19 @@
-<p>services works!</p>
+<div class="home">
+  <div class="home__contenedor">
+    <div class="home__principal">
+      <img class="img_phone" src="../../../assets/icons/people.png" />
+    </div>
+    <div class="home__principal">
+      <h1 class="home__principal-title">
+        {{ "HOME.TITLE" | translate }}
+      </h1>
+      <p>
+        {{ "HOME.DESCRIPTION" | translate }}
+      </p>
+    </div>
+  </div>
+  <div class="home__inferior">
+    <app-details></app-details>
+    <app-sponsor></app-sponsor>
+  </div>
+</div>
