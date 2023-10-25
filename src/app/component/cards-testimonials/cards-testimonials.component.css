@@ -1,0 +1,51 @@
+.cards__title-h2 {
+  color: var(--primary-color);
+  font-size: 44px;
+  font-weight: 700;
+  display: flex;
+  line-height: 50px;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 1rem;
+}
+
+.cards__boxs {
+  box-shadow: 0px 20px 52px 0px rgba(0, 0, 0, 0.12);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 1rem;
+  height: 300px;
+  min-width: 250px;
+}
+
+.cards__inferior {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20rem;
+}
+
+.starDiv {
+  display: flex;
+}
+
+.starDiv-puntaje {
+
+  color: #1E1E1E;
+  margin: 0.7rem;
+}
+
+.nombre {
+  color: var(--primary-color);
+  font-family: "Poppins", Sans-serif;
+  font-weight: 700;
+  margin-top: 2rem;
+}

@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-style: inherit;
+  font-weight: 100;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+html,
+iframe,
+legend,
+li,
+ol,
+p,
+pre,
+textarea,
+ul {
+  border: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+
+:root {
+  --primary-color: #3d47f0;
+  --cerulean-blue-50: #edf3ff;
+  --cerulean-blue-100: #deeaff;
+  --cerulean-blue-200: #c3d7ff;
+  --cerulean-blue-300: #9fbbff;
+  --cerulean-blue-400: #7994ff;
+  --cerulean-blue-500: #596ffb;
+  --cerulean-blue-600: #3d47f0;
+  --cerulean-blue-700: #2e34d4;
+  --cerulean-blue-800: #282fab;
+  --cerulean-blue-900: #282f87;
+  --cerulean-blue-950: #181b4e;
+
+
+
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+

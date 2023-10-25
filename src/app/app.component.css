@@ -1,0 +1,32 @@
+.body {
+  z-index: 1;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  background-image: linear-gradient(180deg, #3D47F0 0%, #101458 100%);
+}
+
+.wave {
+  position: absolute;
+  z-index: 1;
+  top: 85%;
+  max-width: 100%
+}
+
+.cuerpo {
+  z-index: 200;
+  position: relative;
+}
+
+.img {
+  max-width: 100%
+}
+
+@media screen and (max-width: 980px) {
+  .img {
+   display: none;
+  }
+}

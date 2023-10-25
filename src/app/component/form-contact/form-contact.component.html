@@ -1,0 +1,71 @@
+<div class="contenedor">
+  <form class="form" (ngSubmit)="onSubmit()">
+    <div class="form-superior">
+      <h2 class="form-superior-titulo">
+        {{ "CONTACT_FORM.TITLE" | translate }}
+      </h2>
+      <p class="form-superior-parrafo">
+        {{ "CONTACT_FORM.DESCRIPTION" | translate }}
+      </p>
+    </div>
+    <div class="form-inferior">
+      <input
+        type="text"
+        placeholder="{{ 'CONTACT_FORM.NAME' | translate }}"
+        class="form-inferior-input"
+        [(ngModel)]="formData.name"
+        name="name"
+      />
+      <input type="email" 
+      placeholder="{{ 'CONTACT_FORM.EMAIL' | translate }}"
+      class="form-inferior-input" [(ngModel)]="formData.email" name="email" />
+      <select
+        class="form-inferior-input"
+        [(ngModel)]="formData.typePost"
+        name="typePost"
+      >
+        <option value="Seleccionar" disabled>
+          {{ "CONTACT_FORM.SELECT" | translate }}
+        </option>
+        <option value="hireService">
+          {{ "CONTACT_FORM.PRO" | translate }}
+        </option>
+        <option value="workWithUs">
+          {{ "CONTACT_FORM.WORK_WITH_US" | translate }}
+        </option>
+        <option value="Testimonials">
+          {{ "CONTACT_FORM.TESTIMONIALS" | translate }}
+        </option>
+        <option value="Other">{{ "CONTACT_FORM.OTHER" | translate }}</option>
+      </select>
+
+      <div *ngIf="formData.typePost === 'Testimonials'" class="divInput">
+        <div class="div2">
+          <label for="score"
+            >{{ "CONTACT_FORM.PUNCTUATION" | translate }}:
+          </label>
+          <span>{{ formData.score }}</span>
+        </div>
+        <input
+          type="range"
+          class="form-inferior-input range"
+          min="0"
+          max="5"
+          [(ngModel)]="formData.score"
+          id="score"
+          name="score"
+        />
+      </div>
+
+      <textarea
+        placeholder="{{ 'CONTACT_FORM.CONSULTATION' | translate }}"
+        class="form-inferior-input-textarea"
+        [(ngModel)]="formData.texts"
+        name="texts"
+      ></textarea>
+      <button class="form-inferior-boton" type="submit">
+        {{ "CONTACT_FORM.BUTTON" | translate }}
+      </button>
+    </div>
+  </form>
+</div>

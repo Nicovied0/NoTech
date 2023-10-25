@@ -1,0 +1,39 @@
+.nuevosTestimonios {
+  display: flex;
+  margin: 3rem 0;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.nuevosTestimoniosBoton {
+  font-weight: 700;
+  background-color: var(--primary-color);
+  border-radius: 15px;
+  padding: 22px 55px;
+  color: #fff;
+  text-align: center;
+  margin: 2rem 0;
+  cursor: pointer;
+}
+
+.nuevosTestimoniosBox {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+
+.nuevosTestimoniosBoxTitulo {
+  color: var(--primary-color);
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 50px;
+  margin: 1rem 0;
+}
+
+@media screen and (max-width: 980px) {
+  .nuevosTestimoniosBox {
+    width: 100%;
+  }
+}

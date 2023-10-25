@@ -1,0 +1,36 @@
+<div class="precio">
+  <div class="precio__titulo">
+    <h2 class="precio__titulo-h2">{{ "PRICING.TITLE" | translate }}</h2>
+    <p>{{ "PRICING.DESCRIPTION" | translate }}</p>
+  </div>
+  <div>
+    <div class="box">
+      <div class="box-empresas">
+        <img
+          src="https://img.icons8.com/emoji/48/rocket-emji.png"
+          alt="rocket-emji"
+        />
+        <h4 class="text">{{ "PRICING.PRICE_ONE" | translate }}</h4>
+      </div>
+      <div class="box-empresas">
+        <img
+          src="https://img.icons8.com/emoji/48/globe-showing-americas-emoji.png"
+          alt="globe-showing-americas-emoji"
+        />
+        <h4 class="text">{{ "PRICING.PRICE_TWO" | translate }}</h4>
+      </div>
+      <div class="box-empresas">
+        <img
+          src="https://img.icons8.com/emoji/48/open-hands-light-skin-tone.png"
+          alt="open-hands-light-skin-tone"
+        />
+        <h4 class="text">{{ "PRICING.PRICE_THREE" | translate }}</h4>
+      </div>
+    </div>
+    <div class="button">
+      <div class="cotizacion" (click)="goCotizacion()">
+        {{ "PRICING.BUTTON" | translate }}
+      </div>
+    </div>
+  </div>
+</div>

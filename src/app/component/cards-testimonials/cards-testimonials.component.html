@@ -1,0 +1,19 @@
+<div class="cards">
+  <div class="cards__title">
+    <h2 class="cards__title-h2">{{ "TESTIMONIALS.TITLE" | translate }}</h2>
+  </div>
+  <div class="cards__inferior">
+    <div *ngFor="let testimonio of testimonios" class="cards__box">
+      <div class="cards__boxs">
+        <div class="starDiv">
+          <img src="assets/icons/Star.svg" />
+          <p class="starDiv-puntaje">{{ testimonio.score }} / 5</p>
+        </div>
+        <div class="divText">
+          <p>{{ testimonio.texts }}</p>
+          <h3 class="nombre">{{ testimonio.name }}</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
