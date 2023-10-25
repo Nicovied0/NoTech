@@ -8,11 +8,13 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: start;
-  padding: 5rem 2rem 1rem 2rem;
+  padding: 3rem 2rem 1rem 2rem;
   min-height: 80vh;
 }
 .img_phone {
-  height: 400px;
+  height: auto;
+  width: 100%;
+  border-radius: 2rem;
 }
 
 .home__principal {
@@ -69,13 +71,22 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .home__contenedor {
+    flex-direction: column;
+    min-height: 0;
+
+  }
+  .home__principal{
+    width: 100%;
+    min-height: 0;
+  }
+}
 @media screen and (max-width: 600px) {
   .home {
     color: #fff;
     min-height: 100vh;
-  }
-  .home__principal {
-    margin-bottom: 6rem;
   }
 }
 
