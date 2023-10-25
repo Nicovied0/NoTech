@@ -1,4 +1,4 @@
-import { Component,HostListener } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { Router } from '@angular/router';
 import { LanguageService } from 'src/app/services/language.service';
 
@@ -16,26 +16,31 @@ export class NavComponent {
   esOn = true;
   isScrolled = false;
 
-  goComunity() {
-    this.router.navigate(['/community'])
+  goServices() {
+    this.router.navigate(['/services'])
+    window.scrollTo(0, 0);
     this.noShowBurger()
   }
 
   goHome() {
     this.router.navigate(['/'])
+    window.scrollTo(0, 0);
     this.noShowBurger()
   }
 
   goBussines() {
     this.router.navigate(['forBusiness'])
+    window.scrollTo(0, 0);
     this.noShowBurger()
   }
   goAboutUs() {
     this.router.navigate(['aboutUs'])
+    window.scrollTo(0, 0);
     this.noShowBurger()
   }
   goContact() {
     this.router.navigate(['contact'])
+    window.scrollTo(0, 0);
     this.noShowBurger()
   }
 
@@ -60,7 +65,7 @@ export class NavComponent {
 
   @HostListener('window:scroll', [])
   onWindowScroll() {
-    if (window.scrollY > 100) { 
+    if (window.scrollY > 100) {
       this.isScrolled = true;
     } else {
       this.isScrolled = false;

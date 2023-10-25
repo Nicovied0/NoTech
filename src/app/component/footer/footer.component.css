@@ -3,10 +3,11 @@
   background-color: var(--box-color);
   color: var(--color-text-gray);
   border-radius: 3rem 3rem 0 0;
-font-weight: bold;}
+  font-weight: bold;
+}
 
 .footer__imagenes-img {
-  width: 130px;
+  height: 40px;
   margin: 0 0.3rem;
 }
 
@@ -44,9 +45,9 @@ font-weight: bold;}
   width: 100%;
   padding: 1rem 0;
 }
-.footer__div{
+.footer__div {
   border-top: solid 1px #d8d8d8;
-  padding: 2rem  1rem 0rem;
+  padding: 2rem 1rem 0rem;
 }
 
 .footer__texts-grup-notech {
@@ -64,5 +65,8 @@ font-weight: bold;}
   }
   .footer__imagenes {
     margin: 1rem 0;
+  }
+  .footer__partes{
+    display: none;
   }
 }

@@ -5,17 +5,14 @@
     <img src="../../../assets/icons/NOTECH.png" class="nav__icon" (click)="goHome()" />
 
     <div class="nav__links" [ngClass]="{ active: active }">
-      <h2 class="nav__links-comunidad" (click)="goHome()" *ngIf="active">
+      <h2 class="nav__links-comunidad" (click)="goHome()">
         {{ "NAV.HOME" | translate }}
-      </h2>
-      <h2 class="nav__links-comunidad" (click)="goComunity()">
-        {{ "NAV.COMMUNITY" | translate }}
-      </h2>
-      <h2 class="nav__links-business" (click)="goBussines()">
-        {{ "NAV.PAID_VERSION" | translate }}
       </h2>
       <h2 class="nav__links-nosotros" (click)="goAboutUs()">
         {{ "NAV.ABOUT_US" | translate }}
+      </h2>
+      <h2 class="nav__links-services" (click)="goServices()"> 
+        {{ "NAV.SERVICES" | translate }}
       </h2>
       <h2 class="nav__links-contacto" (click)="goContact()">
         {{ "NAV.CONTACT" | translate }}
