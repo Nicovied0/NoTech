@@ -28,8 +28,8 @@ export class NavComponent {
     this.noShowBurger()
   }
 
-  goBussines() {
-    this.router.navigate(['forBusiness'])
+  goProducts() {
+    this.router.navigate(['products'])
     window.scrollTo(0, 0);
     this.noShowBurger()
   }

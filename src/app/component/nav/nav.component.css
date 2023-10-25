@@ -24,8 +24,8 @@
   justify-content: space-between
 }
 
-.nav__links-comunidad,
-.nav__links-business,
+.nav__links-products,
+.nav__links-services,
 .nav__links-nosotros,
 .nav__links-list,
 .nav__links-lenguaje,
@@ -35,8 +35,8 @@
   cursor: pointer;
 }
 
-.nav__links-comunidad:hover,
-.nav__links-business:hover,
+.nav__links-services:hover,
+.nav__links-products:hover,
 .nav__links-nosotros:hover,
 .nav__links-list:hover,
 .nav__links-lenguaje:hover,

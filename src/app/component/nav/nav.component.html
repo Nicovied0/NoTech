@@ -5,7 +5,7 @@
     <img src="../../../assets/icons/NOTECH.png" class="nav__icon" (click)="goHome()" />
 
     <div class="nav__links" [ngClass]="{ active: active }">
-      <h2 class="nav__links-comunidad" (click)="goHome()">
+      <h2 class="nav__links-nosotros" (click)="goHome()">
         {{ "NAV.HOME" | translate }}
       </h2>
       <h2 class="nav__links-nosotros" (click)="goAboutUs()">
@@ -14,21 +14,21 @@
       <h2 class="nav__links-services" (click)="goServices()"> 
         {{ "NAV.SERVICES" | translate }}
       </h2>
+      <h2 class="nav__links-products" (click)="goProducts()">
+        {{ "NAV.PRODUCTS" | translate }}
+      </h2>
       <h2 class="nav__links-contacto" (click)="goContact()">
         {{ "NAV.CONTACT" | translate }}
       </h2>
-      <img
-        class="nav__links-lenguaje"
-        src="../../../assets/icons/es.png"
-        (click)="changeLanguage('es')"
-        *ngIf="enOn"
-      />
-      <img
-        class="nav__links-lenguaje"
-        src="../../../assets/icons/en.png"
-        (click)="changeLanguage('en')"
-        *ngIf="esOn"
-      />
+      
+      <h2  (click)="changeLanguage('es')"
+      *ngIf="enOn"  class="nav__links-lenguaje">   
+Es
+      </h2>
+      <h2  (click)="changeLanguage('en')"
+      *ngIf="esOn"  class="nav__links-lenguaje">   
+En
+      </h2>
     </div>
     <div class="nav__burguer" (click)="showBurger()">
       <div class="nav__burguer-line-1" [ngClass]="{ active: active }"></div>
