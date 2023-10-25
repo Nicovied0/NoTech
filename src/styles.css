@@ -53,10 +53,18 @@ ul {
   --cerulean-blue-900: #282f87;
   --cerulean-blue-950: #181b4e;
 
-
-
-
+  --color-primary: #33a3aa;
+  --color-text-dark: #393838;
+  --color-text-gray: #797979;
+  --color-text-card: #979797;
+  --desktop-padding: 11rem;
+  --notebook-padding: 8.5rem;
+  --tablet-padding: 8em;
+  --mobile-padding: 1.8em;
+  --font-family-primary: "Poppins", sans-serif;
+  --box-color: #f8f8f8;
 }
+
 
 html {
   scroll-behavior: smooth;
