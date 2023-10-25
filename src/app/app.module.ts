@@ -22,6 +22,7 @@ import { PricingComponent } from './component/pricing/pricing.component';
 import { ProductsComponent } from './component/products/products.component';
 import { NewTestimonialsComponent } from './component/new-testimonials/new-testimonials.component';
 import { ServicesComponent } from './component/services/services.component';
+import { AboutUsDetailComponent } from './component/about-us-detail/about-us-detail.component';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -45,6 +46,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     ProductsComponent,
     NewTestimonialsComponent,
     ServicesComponent,
+    AboutUsDetailComponent,
 
   ],
   imports: [
