@@ -1,8 +1,15 @@
-<div [ngClass]="{'nav': isScrolled}">
-  <div class="contenedor">
-    <div class="navDiv nav__burguer-line-1" [ngClass]="{ active: active }"></div>
+<div [ngClass]="{ nav: isScrolled }">
+  <div class="contenedor fade-in">
+    <div
+      class="navDiv nav__burguer-line-1"
+      [ngClass]="{ active: active }"
+    ></div>
 
-    <img src="../../../assets/icons/NOTECH.png" class="nav__icon" (click)="goHome()" />
+    <img
+      src="../../../assets/icons/NOTECH.png"
+      class="nav__icon"
+      (click)="goHome()"
+    />
 
     <div class="nav__links" [ngClass]="{ active: active }">
       <h2 class="nav__links-nosotros" (click)="goHome()">
@@ -11,7 +18,7 @@
       <h2 class="nav__links-nosotros" (click)="goAboutUs()">
         {{ "NAV.ABOUT_US" | translate }}
       </h2>
-      <h2 class="nav__links-services" (click)="goServices()"> 
+      <h2 class="nav__links-services" (click)="goServices()">
         {{ "NAV.SERVICES" | translate }}
       </h2>
       <h2 class="nav__links-products" (click)="goProducts()">
@@ -20,14 +27,20 @@
       <h2 class="nav__links-contacto" (click)="goContact()">
         {{ "NAV.CONTACT" | translate }}
       </h2>
-      
-      <h2  (click)="changeLanguage('es')"
-      *ngIf="enOn"  class="nav__links-lenguaje">   
-Es
+
+      <h2
+        (click)="changeLanguage('es')"
+        *ngIf="enOn"
+        class="nav__links-lenguaje"
+      >
+        Es
       </h2>
-      <h2  (click)="changeLanguage('en')"
-      *ngIf="esOn"  class="nav__links-lenguaje">   
-En
+      <h2
+        (click)="changeLanguage('en')"
+        *ngIf="esOn"
+        class="nav__links-lenguaje"
+      >
+        En
       </h2>
     </div>
     <div class="nav__burguer" (click)="showBurger()">
@@ -35,7 +48,5 @@ En
       <div class="nav__burguer-line-2" [ngClass]="{ active: active }"></div>
       <div class="nav__burguer-line-3" [ngClass]="{ active: active }"></div>
     </div>
-
-    
   </div>
 </div>
