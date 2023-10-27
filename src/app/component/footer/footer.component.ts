@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+import { Renderer2, ElementRef, ViewChild } from '@angular/core';
+
 
 @Component({
   selector: 'app-footer',
@@ -7,4 +10,17 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
 
+  constructor(private router: Router, private renderer: Renderer2) {}
+
+  navigateToProduct(componentId: string) {
+    this.router.navigate(['/products']).then(() => {
+      // Espera un momento para asegurarte de que la vista "products" se ha cargado
+      setTimeout(() => {
+        const element = document.getElementById(componentId);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }, 100); // Ajusta el tiempo según tus necesidades
+    });
+  }
 }

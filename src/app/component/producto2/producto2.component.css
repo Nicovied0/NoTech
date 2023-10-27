@@ -46,7 +46,8 @@
   font-weight: 400;
   color: #54595f;
 }
-.details:hover {
+.details__funcionamiento:hover,
+.details__images-img:hover {
   cursor: pointer;
   transform: scale(1.01);
   animation: fadeIn 1s ease-in-out forwards;
