@@ -55,14 +55,14 @@
     "CONSULTATION": "Consultation"
   },
   "DETAILS": {
-    "TITLE": "How does it work?",
+    "TITLE": "How we work?",
     "DESCRIPTION": {
-      "TITLE_CONECTION": "No connection required",
-      "DESCRIPTION_CONECTION": "Certain features do not require an internet connection.",
-      "TITLE_MORE": "And much more!",
-      "DESCRIPTION_MORE": "Don't miss everything we're working on.",
-      "TITLE_SETTINGS": "Useful tools",
-      "DESCRIPTION_SETTINGS": "Designed to serve you in any everyday situation."
+      "TITLE_CONECTION": "Contact",
+      "DESCRIPTION_CONECTION": "Contact us, and we will propose a solution for your needs.",
+      "TITLE_SETTINGS": "Develop",
+      "DESCRIPTION_SETTINGS": "We develop your product according to your needs and requirements.",
+      "TITLE_MORE": "Enjoy Your Product!",
+      "DESCRIPTION_MORE": "Once the product is delivered, we provide support services."
     }
   },
   "SPONSOR": {
