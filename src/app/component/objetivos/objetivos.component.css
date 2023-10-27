@@ -1,0 +1,35 @@
+.details {
+    display: flex;
+    padding: 3rem 7rem 4rem;
+  }
+  
+
+  
+  @media screen and (max-width: 768px) {
+    .details__images {
+      padding: 10px;
+      align-items: center;
+      align-content: center;
+      text-align: center;
+      width: 100%;
+    }
+    .details {
+      flex-direction: column;
+    }
+    .details__funcionamiento {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .details {
+      padding: 3rem 2rem 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .details__funcionamiento-tittle {
+      font-size: 36px;
+    }
+  }
+  

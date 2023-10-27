@@ -46,17 +46,13 @@
     font-size: 30px;
   }
 }
-@media screen and (max-width: 800px) {
-  .about__contenedor {
-    padding: 3rem 4rem 1rem 4rem;
-  }
-}
 
 @media screen and (max-width: 735px) {
   .about__contenedor {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    padding: 3rem 4rem 1rem 4rem;
   }
   .about__principal {
     width: 100%;
