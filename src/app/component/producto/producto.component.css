@@ -46,6 +46,11 @@
     font-weight: 400;
     color: #54595f;
   }
+  .details:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+    animation: fadeIn 1s ease-in-out forwards;
+  }
   
   @media screen and (max-width: 768px) {
     .details__images {

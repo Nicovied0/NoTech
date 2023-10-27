@@ -1,3 +1,4 @@
+
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class ProductoComponent {
 
+  goLink(){
+    window.open('https://agfire.vercel.app/','_blanck')
+  }
 }

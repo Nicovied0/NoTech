@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class Producto2Component {
 
+  goLink() {
+    window.open('https://notech-company.vercel.app/', '_blanck')
+  }
 }
