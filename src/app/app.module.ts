@@ -26,6 +26,7 @@ import { AboutUsDetailComponent } from './component/about-us-detail/about-us-det
 import { ProductoComponent } from './component/producto/producto.component';
 import { Producto2Component } from './component/producto2/producto2.component';
 import { ObjetivosComponent } from './component/objetivos/objetivos.component';
+import { TecnicoComponent } from './component/tecnico/tecnico.component';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -53,6 +54,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     ProductoComponent,
     Producto2Component,
     ObjetivosComponent,
+    TecnicoComponent,
 
   ],
   imports: [
