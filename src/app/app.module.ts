@@ -23,6 +23,8 @@ import { ProductsComponent } from './component/products/products.component';
 import { NewTestimonialsComponent } from './component/new-testimonials/new-testimonials.component';
 import { ServicesComponent } from './component/services/services.component';
 import { AboutUsDetailComponent } from './component/about-us-detail/about-us-detail.component';
+import { ProductoComponent } from './component/producto/producto.component';
+import { Producto2Component } from './component/producto2/producto2.component';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -47,6 +49,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     NewTestimonialsComponent,
     ServicesComponent,
     AboutUsDetailComponent,
+    ProductoComponent,
+    Producto2Component,
 
   ],
   imports: [
