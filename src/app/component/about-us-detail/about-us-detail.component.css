@@ -22,16 +22,11 @@
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 157.4%;
-  margin-right: 6.5rem;
 }
 .div_inferior-box {
   display: flex;
   align-items: center;
   justify-content: space-around;
-}
-.div_inferior-boxInternal {
-  width: 50%;
 }
 
 @media screen and (max-width: 800px) {
