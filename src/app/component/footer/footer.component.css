@@ -34,7 +34,12 @@
   height: 1.3rem;
   margin: 1rem 0;
 }
-
+.h2{
+  color: #54595f;
+}
+.p{
+  font-weight: normal;
+}
 @media screen and (max-width: 480px) {
   .footer__texts-grup {
     flex-direction: column;
