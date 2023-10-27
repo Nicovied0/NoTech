@@ -3,6 +3,7 @@
   background-color: rgba(0, 0, 0, 1);
   transition: background-color 0.3s, opacity 0.3s;
   width: 100%;
+  z-index: 20;
 }
 
 
@@ -11,6 +12,8 @@
   align-items: center;
   justify-content: space-around;
   margin: 2rem 2rem 1rem 2rem;
+  position: relative;
+  z-index: 20;
 }
 
 .nav__links {
@@ -72,7 +75,7 @@
     width: 35px;
     display: block;
     cursor: pointer;
-    z-index: 2;
+    z-index: 200;
   }
 
   .nav__burguer-line-1,
@@ -113,6 +116,7 @@
     background-color: var(--primary-color);
     transition: all 1s ease-out;
     clip-path: circle(150% at 100% 0%);
+    z-index: 200;
   }
 
   .nav__menu ul {

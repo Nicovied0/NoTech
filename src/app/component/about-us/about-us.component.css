@@ -6,9 +6,9 @@
 .about__contenedor {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 3rem 7rem 1rem 7rem;
   min-height: 80vh;
 }
 
@@ -18,7 +18,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .about__principal-title {
@@ -44,6 +44,11 @@
 @media screen and (max-width: 980px) {
   .about__principal-title {
     font-size: 30px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .about__contenedor {
+    padding: 3rem 4rem 1rem 4rem;
   }
 }
 
