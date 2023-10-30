@@ -82,10 +82,18 @@
     "OBJECTIVES": "Our objectives",
     "OBJECTIVES_TEXT": "We are not simply a software development company, we are a group of creative and innovative minds, passionate about turning your vision into a tangible reality. Our commitment is to transform your ideas into practical and effective solutions. We are more than a team, we are your partners on the journey to success.",
     "COMPANY_TITLE_1": "100% digital company",
-    "COMPANY_DETAIL_1": "We are a company totally focused on the digital world. Our dedication to digital process management not only improves efficiency, but also dramatically reduces the need for paper and physical resources."
+    "COMPANY_DETAIL_1": "We are a company totally focused on the digital world, improving efficiency and reducing the use of paper and physical resources.",
+    "COMPANY_TITLE_2": "Commitment to Quality",
+    "COMPANY_DETAIL_2": "We constantly strive to offer products and services of the highest quality. Excellence is our standard.",
+    "COMPANY_TITLE_3": "Global Collaboration",
+    "COMPANY_DETAIL_3": "We encourage collaboration and diversity, working together with teams around the world to address global challenges."
   },
   "SERVICE": {
     "TITLE": "Our services",
     "DESCRIPTION": "We provide personalized services to enhance the success of your company. From technology solutions to marketing strategies, we are here to help you achieve your business goals."
+  },
+  "PRODUCTS": {
+    "TITLE": "Our products",
+    "DESCRIPTION": "We offer internal development solutions that drive the growth and success of your company in the digital field."
   }
 }

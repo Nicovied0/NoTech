@@ -86,10 +86,18 @@
     "OBJECTIVES": "Nuestros objetivos",
     "OBJECTIVES_TEXT": "Nosotros no somos simplemente una compañía de desarrollo de software, somos un grupo de mentes creativas e innovadoras, apasionadas por convertir tu visión en una realidad tangible. Nuestro compromiso es transformar tus ideas en soluciones prácticas y efectivas. Somos más que un equipo, somos tus socios en el viaje hacia el éxito.",
     "COMPANY_TITLE_1": "Empresa 100% digital",
-    "COMPANY_DETAIL_1": "Somos una empresa totalmente enfocada en el mundo digital. Nuestra dedicación a la gestión de procesos digitales no solo mejora la eficiencia, sino que también reduce drásticamente la necesidad de papel y recursos físicos."
+    "COMPANY_DETAIL_1": "Somos una empresa totalmente enfocada en el mundo digital, mejorando eficiencia y reduciendo el uso de papel y recursos físicos.",
+    "COMPANY_TITLE_2": "Compromiso con la Calidad",
+    "COMPANY_DETAIL_2": "Nos esforzamos constantemente por ofrecer productos y servicios de la más alta calidad. La excelencia es nuestra norma.",
+    "COMPANY_TITLE_3": "Colaboración Global",
+    "COMPANY_DETAIL_3": "Fomentamos la colaboración y la diversidad, trabajando en conjunto con equipos de todo el mundo para abordar desafíos globales."
   },
-  "SERVICE":{
-    "TITLE":"Nuestros Servicios",
-    "DESCRIPTION":"Brindamos servicios personalizados para potenciar el éxito de tu empresa. Desde soluciones tecnológicas hasta estrategias de marketing, estamos aquí para ayudarte a alcanzar tus metas comerciales."
+  "SERVICE": {
+    "TITLE": "Nuestros Servicios",
+    "DESCRIPTION": "Brindamos servicios personalizados para potenciar el éxito de tu empresa. Desde soluciones tecnológicas hasta estrategias de marketing, estamos aquí para ayudarte a alcanzar tus metas comerciales."
+  },
+  "PRODUCTS": {
+    "TITLE": "Nuestros Productos",
+    "DESCRIPTION": "Ofrecemos soluciones de desarrollo interno que impulsan el crecimiento y el éxito de tu empresa en el ámbito digital"
   }
 }
