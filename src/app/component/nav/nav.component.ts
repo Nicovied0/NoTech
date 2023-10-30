@@ -11,16 +11,12 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class NavComponent {
 
-  constructor(private router: Router, private languageService: LanguageService, private route: ActivatedRoute) {
-    this.currentRoute = this.router.url;
-  }
+  constructor(private router: Router, private languageService: LanguageService,private route: ActivatedRoute) { }
 
   active = false;
   enOn = false;
   esOn = true;
   isScrolled = false;
-  private currentRoute: string;
-
 
   goServices() {
     this.router.navigate(['/services'])
@@ -67,14 +63,13 @@ export class NavComponent {
       this.esOn = false;
       this.enOn = true;
     }
+    const currentUrl = this.router.url;
 
-    this.router.navigateByUrl('/temp', { skipLocationChange: true }).then(() => {
-      this.router.navigateByUrl(this.currentRoute, { skipLocationChange: true }).then(() => {
-        this.router.navigate([this.currentRoute]);
-      });
+    this.router.navigateByUrl('/', { skipLocationChange: true }).then(() => {
+      this.router.navigate([currentUrl]);
     });
-  }
 
+  }
 
   @HostListener('window:scroll', [])
   onWindowScroll() {

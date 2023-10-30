@@ -83,5 +83,9 @@
     "OBJECTIVES_TEXT": "We are not simply a software development company, we are a group of creative and innovative minds, passionate about turning your vision into a tangible reality. Our commitment is to transform your ideas into practical and effective solutions. We are more than a team, we are your partners on the journey to success.",
     "COMPANY_TITLE_1": "100% digital company",
     "COMPANY_DETAIL_1": "We are a company totally focused on the digital world. Our dedication to digital process management not only improves efficiency, but also dramatically reduces the need for paper and physical resources."
+  },
+  "SERVICE": {
+    "TITLE": "Our services",
+    "DESCRIPTION": "We provide personalized services to enhance the success of your company. From technology solutions to marketing strategies, we are here to help you achieve your business goals."
   }
 }
