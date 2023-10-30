@@ -11,10 +11,10 @@
     padding: 3rem 7rem 1rem 7rem;
     min-height: 80vh;
   }
-  .img_phone {
+  .img {
     height: auto;
     width: 100%;
-    border-radius: 2rem;
+    border-radius: 64% 85% 22% 71% / 56% 34% 97% 126%;
   }
   
   .home__principal {
