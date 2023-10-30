@@ -14,7 +14,6 @@ import { HomeComponent } from './component/home/home.component';
 import { NavComponent } from './component/nav/nav.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { DetailsComponent } from './component/details/details.component';
-import { SponsorComponent } from './component/sponsor/sponsor.component';
 import { FormContactComponent } from './component/form-contact/form-contact.component';
 import { CardsTestimonialsComponent } from './component/cards-testimonials/cards-testimonials.component';
 import { TestimoniosService } from './services/testimoniosService';
@@ -44,7 +43,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     NavComponent,
     FooterComponent,
     DetailsComponent,
-    SponsorComponent,
     FormContactComponent,
     CardsTestimonialsComponent,
     PricingComponent,
