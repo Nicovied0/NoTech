@@ -94,7 +94,16 @@
   },
   "SERVICE": {
     "TITLE": "Nuestros Servicios",
-    "DESCRIPTION": "Brindamos servicios personalizados para potenciar el éxito de tu empresa. Desde soluciones tecnológicas hasta estrategias de marketing, estamos aquí para ayudarte a alcanzar tus metas comerciales."
+    "DESCRIPTION": "Brindamos servicios personalizados para potenciar el éxito de tu empresa. Desde soluciones tecnológicas hasta estrategias de marketing, estamos aquí para ayudarte a alcanzar tus metas comerciales.",
+    "TITLE_LIST": "Nuestros Servicios",
+    "LIST_TITLE_1": "Desarrollo de software",
+    "LIST_DETAIL_1": " Creamos y personalizamos aplicaciones y sistemas de software para satisfacer tus necesidades específicas. Nuestra experiencia en programación nos permite ofrecerte soluciones a medida que optimizan tus operaciones",
+    "LIST_TITLE_2": "Consultoría en tecnología",
+    "LIST_DETAIL_2": "Te asesoramos sobre cómo aprovechar al máximo la tecnología para alcanzar tus objetivos comerciales. Nuestra experiencia te guiará en la toma de decisiones tecnológicas estratégicas.",
+    "LIST_TITLE_3": "Desarrollo de Sitios Web y Diseño Web",
+    "LIST_DETAIL_3": "Diseñamos y desarrollamos sitios web a medida, ofreciendo una experiencia de usuario excepcional. Tu presencia en línea es nuestra prioridad.",
+    "LIST_TITLE_4": "Desarrollo de Aplicaciones Móviles",
+    "LIST_DETAIL_4": "Creamos aplicaciones móviles personalizadas para iOS, Android y otras plataformas. Dale vida a tus ideas móviles con nuestras soluciones de desarrollo."
   },
   "PRODUCTS": {
     "TITLE": "Nuestros Productos",

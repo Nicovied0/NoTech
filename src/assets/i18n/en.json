@@ -90,7 +90,16 @@
   },
   "SERVICE": {
     "TITLE": "Our services",
-    "DESCRIPTION": "We provide personalized services to enhance the success of your company. From technology solutions to marketing strategies, we are here to help you achieve your business goals."
+    "DESCRIPTION": "We provide personalized services to enhance the success of your company. From technology solutions to marketing strategies, we are here to help you achieve your business goals.",
+    "TITLE_LIST": "Our services",
+    "LIST_TITLE_1": "Software development",
+    "LIST_DETAIL_1": "We create and customize applications and software systems to meet your specific needs. Our programming experience allows us to offer you tailored solutions that optimize your operations",
+    "LIST_TITLE_2": "Technology consulting",
+    "LIST_DETAIL_2": "We advise you on how to make the most of technology to achieve your business objectives. Our experience will guide you in making strategic technological decisions.",
+    "LIST_TITLE_3": "Website Development and Web Design",
+    "LIST_DETAIL_3": "We design and develop custom websites, offering an exceptional user experience. Your online presence is our priority.",
+    "LIST_TITLE_4": "Mobile application development",
+    "LIST_DETAIL_4": "We create custom mobile applications for iOS, Android and other platforms. Bring your mobile ideas to life with our development solutions."
   },
   "PRODUCTS": {
     "TITLE": "Our products",

@@ -4,7 +4,7 @@
 }
 
 .details__funcionamiento-tittle {
-  color: var(--primary-color);
+  color: var(--primary-color-dark);
   font-family: "Poppins", Sans-serif;
   font-size: 44px;
   font-weight: 700;
