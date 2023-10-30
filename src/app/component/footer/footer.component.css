@@ -25,6 +25,7 @@
   width: 100%;
   padding: 1rem 0;
 }
+
 .footer__div {
   border-top: solid 1px #d8d8d8;
   padding: 2rem 1rem 0rem;
@@ -34,13 +35,22 @@
   height: 1.3rem;
   margin: 1rem 0;
 }
+
 .h2 {
   color: #54595f;
 }
+
 .p {
   font-weight: normal;
   cursor: pointer;
 }
+
+@media screen and (max-width: 800px) {
+  .services {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .footer__texts-grup {
     flex-direction: column;

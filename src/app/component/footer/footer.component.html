@@ -12,13 +12,29 @@
       </div>
 
       <div class="footer__partes">
-        <h2 class="h2">{{ "NAV.SERVICES" | translate }}</h2>
+        <div class="services">
+          <h2 class="h2">{{ "NAV.SERVICES" | translate }}</h2>
+          <p class="p" (click)="navigateToService('services')">
+            {{ "SERVICE.LIST_TITLE_1" | translate }}
+          </p>
+          <p class="p" (click)="navigateToService('services')">
+            {{ "SERVICE.LIST_TITLE_2" | translate }}
+          </p>
+          <p class="p" (click)="navigateToService('services')">
+            {{ "SERVICE.LIST_TITLE_3" | translate }}
+          </p>
+          <p class="p" (click)="navigateToService('services')">
+            {{ "SERVICE.LIST_TITLE_4" | translate }}
+          </p>
+        </div>
       </div>
 
       <div class="footer__partes">
         <h2 class="h2">{{ "NAV.PRODUCTS" | translate }}</h2>
         <p class="p" (click)="navigateToProduct('producto1')">Alarm Geo Fire</p>
-        <p class="p" (click)="navigateToProduct('producto2')">Bomberos voluntarios</p>
+        <p class="p" (click)="navigateToProduct('producto2')">
+          Bomberos voluntarios
+        </p>
       </div>
     </div>
     <div class="footer__div">
