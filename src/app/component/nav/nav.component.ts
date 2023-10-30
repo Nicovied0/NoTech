@@ -1,6 +1,8 @@
 import { Component, HostListener } from '@angular/core';
 import { Router } from '@angular/router';
 import { LanguageService } from 'src/app/services/language.service';
+import { ActivatedRoute } from '@angular/router';
+
 
 @Component({
   selector: 'app-nav',
@@ -9,12 +11,16 @@ import { LanguageService } from 'src/app/services/language.service';
 })
 export class NavComponent {
 
-  constructor(private router: Router, private languageService: LanguageService) { }
+  constructor(private router: Router, private languageService: LanguageService, private route: ActivatedRoute) {
+    this.currentRoute = this.router.url;
+  }
 
   active = false;
   enOn = false;
   esOn = true;
   isScrolled = false;
+  private currentRoute: string;
+
 
   goServices() {
     this.router.navigate(['/services'])
@@ -61,7 +67,14 @@ export class NavComponent {
       this.esOn = false;
       this.enOn = true;
     }
+
+    this.router.navigateByUrl('/temp', { skipLocationChange: true }).then(() => {
+      this.router.navigateByUrl(this.currentRoute, { skipLocationChange: true }).then(() => {
+        this.router.navigate([this.currentRoute]);
+      });
+    });
   }
+
 
   @HostListener('window:scroll', [])
   onWindowScroll() {

@@ -27,6 +27,7 @@ import { ProductoComponent } from './component/producto/producto.component';
 import { Producto2Component } from './component/producto2/producto2.component';
 import { ObjetivosComponent } from './component/objetivos/objetivos.component';
 import { TecnicoComponent } from './component/tecnico/tecnico.component';
+import { EmptyComponent } from './component/empty/empty.component';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -55,6 +56,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     Producto2Component,
     ObjetivosComponent,
     TecnicoComponent,
+    EmptyComponent,
 
   ],
   imports: [
