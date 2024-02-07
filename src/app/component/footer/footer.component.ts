@@ -14,7 +14,6 @@ export class FooterComponent {
 
   navigateToProduct(componentId: string) {
     this.router.navigate(['/products']).then(() => {
-      // Espera un momento para asegurarte de que la vista "products" se ha cargado
       setTimeout(() => {
         const element = document.getElementById(componentId);
         if (element) {
@@ -30,7 +29,7 @@ export class FooterComponent {
         if (element) {
           element.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
-      }, 100); // Ajusta el tiempo según tus necesidades
+      }, 100);
     });
   }
 }
