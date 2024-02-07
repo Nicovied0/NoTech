@@ -9,6 +9,6 @@ import { Component } from '@angular/core';
 export class ProductoComponent {
 
   goLink(){
-    window.open('https://agfire.vercel.app/','_blanck')
+    window.open('https://swiftflex-bank-front.vercel.app/','_blanck')
   }
 }
