@@ -1,6 +1,6 @@
 .details {
   display: flex;
-  padding: 3rem 2rem;
+  padding: 7rem;
 }
 
 .details__funcionamiento-tittle {
@@ -53,6 +53,8 @@
   }
   .details {
     flex-direction: column;
+    padding: 3rem 2rem;
+
   }
   .details__funcionamiento {
     width: 100%;

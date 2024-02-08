@@ -1,10 +1,15 @@
 .contenedor {
   padding: 3rem 7rem;
+
+}
+.contenedor__img{
+  text-align: center;
 }
 
 .img {
   max-width: 100%;
   border-radius: 4rem;
+  text-align: center;
 }
 .h2 {
   color: var(--color-text-dark);
