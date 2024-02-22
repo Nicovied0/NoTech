@@ -1,5 +1,6 @@
 .details {
   display: flex;
+  flex-direction: row-reverse;
   padding: 3rem 7rem 4rem;
   align-items: center;
 }
