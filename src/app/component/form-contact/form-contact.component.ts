@@ -20,15 +20,15 @@ export class FormContactComponent {
   constructor(private http: HttpClient, private router: Router) { }
 
   onSubmit() {
-    this.http.post('https://alarmgeofireback.up.railway.app/publications/new', this.formData)
-      .subscribe(
-        (response) => {
-          console.log('Solicitud POST exitosa', response);
-          this.router.navigate(['/'])
-        },
-        (error) => {
-          console.error('Error al enviar la solicitud POST', error);
-        }
-      );
+    // this.http.post('https://alarmgeofireback.up.railway.app/publications/new', this.formData)
+    //   .subscribe(
+    //     (response) => {
+    //       console.log('Solicitud POST exitosa', response);
+    //       this.router.navigate(['/'])
+    //     },
+    //     (error) => {
+    //       console.error('Error al enviar la solicitud POST', error);
+    //     }
+    //   );
   }
 }

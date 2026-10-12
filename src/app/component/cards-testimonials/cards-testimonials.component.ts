@@ -18,11 +18,11 @@ export class CardsTestimonialsComponent implements OnInit {
 
 
   getTestimonios() {
-    this.testimoniosService.getTestimonios().subscribe(
-      res => {
-        this.testimonios = res
-      }
-    )
+    // this.testimoniosService.getTestimonios().subscribe(
+    //   res => {
+    //     this.testimonios = res
+    //   }
+    // )
   }
   
 
