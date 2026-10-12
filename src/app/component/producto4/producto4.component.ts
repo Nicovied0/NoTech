@@ -7,6 +7,6 @@ import { Component } from "@angular/core";
 })
 export class Producto4Component {
   goLink() {
-    window.open("https://taskker.vercel.app/", "_blanck");
+    // window.open("https://taskker.vercel.app/", "_blanck");
   }
 }

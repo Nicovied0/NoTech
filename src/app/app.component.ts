@@ -7,7 +7,7 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'alarmGeoFireWeb';
+  title = 'NOHRA Software';
 
   constructor(private translate: TranslateService) {
     translate.addLangs(['es', 'en'])

@@ -1,7 +1,7 @@
 .footer {
   min-height: 10rem;
-  background-color: var(--box-color);
-  color: var(--color-text-gray);
+  background-color: var(--color-dark);
+  color: var(--box-color);
   border-radius: 3rem 3rem 0 0;
   font-weight: bold;
 }

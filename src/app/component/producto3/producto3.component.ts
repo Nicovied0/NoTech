@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class Producto3Component {
 
   goLink() {
-    window.open('https://automarket-dev.vercel.app/', '_blanck')
+    // window.open('https://automarket-dev.vercel.app/', '_blanck')
   }
 
 }

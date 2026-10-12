@@ -11,10 +11,11 @@
   padding: 3rem 7rem 1rem 7rem;
   min-height: 80vh;
 }
+
 .img {
   height: auto;
   width: 100%;
-  border-radius: 27% 82% 19% 81% / 95% 64% 36%;
+  border-radius: 23% 85% 36% 27% / 11% 35% 118% 164%;
 }
 
 .home__principal {
@@ -47,11 +48,6 @@
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-}
-
-.home__principal-imagenes-img {
-  width: 200px;
-  margin: 0.5rem;
 }
 
 .home__inferior {

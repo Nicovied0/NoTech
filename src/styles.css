@@ -39,7 +39,7 @@ ul {
 }
 
 :root {
-  --primary-color: #7c40bb;
+  --primary-color: #086bff;
   --cerulean-blue-50: #edf3ff;
   --cerulean-blue-100: #deeaff;
   --cerulean-blue-200: #c3d7ff;
@@ -63,6 +63,20 @@ ul {
   --mobile-padding: 1.8em;
   --font-family-primary: "Poppins", sans-serif;
   --box-color: #f8f8f8;
+}
+
+:root {
+  --color-primary: #086bff;
+  --color-secondary: #5635f5;
+  --color-dark: #121826;
+  --color-muted: #64748b;
+  --color-background: #ffffff;
+
+  --gradient-brand: linear-gradient(
+    135deg,
+    var(--color-primary),
+    var(--color-secondary)
+  );
 }
 
 html {

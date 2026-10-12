@@ -6,19 +6,26 @@
 .about__contenedor {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: space-between;
+  align-items: start;
   padding: 3rem 7rem 1rem 7rem;
   min-height: 80vh;
 }
 
+.img {
+  height: auto;
+  width: 100%;
+  border-radius: 23% 85% 36% 27% / 11% 35% 118% 164%;
+}
+
 .about__principal {
-  min-height: 30rem;
-  padding: 1rem;
+  width: 50%;
+  min-height: 28rem;
   display: flex;
+  margin: 1rem;
   flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .about__principal-title {
