@@ -1,2 +1,2 @@
-# NO TECH
+# NOHRA Software
 
